@@ -1,0 +1,18 @@
+body {
+	background: #E5E5E5;
+	font-family: helvetica, arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* Clearfix */
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+.clearfix {display: block;}

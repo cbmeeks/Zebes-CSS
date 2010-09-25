@@ -1,0 +1,102 @@
+#sheet {
+	margin: 10px;
+	padding: 0;
+}
+
+/* Left */
+#sheet div.left {
+  background: #fff;
+	float: left;
+	margin: 0 20px 0 0;
+	padding: 0;
+	text-align: left;
+	width: 68%;
+}
+
+#sheet div.left .header {
+	background: #EFF3FE;
+	margin: 0;
+	padding: 10px;
+}
+
+#sheet .left .header h1 {
+	color: #333;
+	display: inline;
+	font-size: 18px;
+	margin: 0;
+	padding: 0 10px 0 0;
+}
+
+#sheet .left .header h3 {
+	color: #888;
+	display: inline;
+	font-size: 12px;
+	margin: 0;
+	padding: 0 10px 0 0;
+}
+
+#sheet .left .content {
+	margin: 0;
+	padding: 10px;
+}
+
+/* Left Headers */
+#sheet .left .content h1 {
+	font-size: 28px;
+	color: #333;
+	margin: 0 0 6px 0;
+	padding: 0;
+}
+
+#sheet .left .content h2 {
+	background: #FFB41E;
+	color: #333;
+	font-size: 22px;
+	margin: 0 0 6px 0;
+	padding: 4px;
+}
+
+#sheet .left .content h3 {
+	border-bottom: 1px #333 solid;
+	color: #333;
+	font-size: 22px;
+	margin: 0 0 6px 0;
+	padding: 0;
+}
+
+#sheet .left .content h4 {
+	color: #333;
+	float: right;
+	font-size: 16px;
+	margin: 0 0 6px 0;
+	padding: 0;
+}
+
+
+
+/* Right */
+#sheet div.right {
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	width: 30%;
+}
+
+#sheet div.right .header {
+	background: #EFF3FE;
+	margin: 0;
+	padding: 10px;
+}
+
+#sheet .right .header h1 {
+	color: #333;
+	display: inline;
+	font-size: 15px;
+	margin: 0;
+	padding: 0 10px 0 0;
+}
+
+
+
+
