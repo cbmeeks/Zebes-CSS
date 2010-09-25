@@ -16,7 +16,7 @@ releasing it as open source.
 == Layout
 
 
-													* HEADER *
+* HEADER *
 ---------------------------------------------------------------
 | Links                                           Links Right |
 |                                                             |
@@ -26,7 +26,7 @@ releasing it as open source.
 | Tabs                                             Tabs Right |
 ---------------------------------------------------------------
 
-													* Sheet *
+* Sheet *
 													
 ---------------------------------------------------------------
 |  Left                                     Right             |
@@ -43,6 +43,6 @@ releasing it as open source.
 |                                                             |
 ---------------------------------------------------------------
 
-													* Footer *
+* Footer *
 													
-													(TBA)
+(TBA)
