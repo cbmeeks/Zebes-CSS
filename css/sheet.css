@@ -34,6 +34,7 @@
 #sheet .left .header h1 {
 	color: #333;
 	display: inline;
+	font-family: 'Lucida Grande', arial, sans-serif;	
 	font-size: 18px;
 	margin: 0;
 	padding: 0 10px 0 0;
@@ -98,7 +99,7 @@
 }
 
 #sheet div.right .header {
-	background: #EFF3FE;
+	background: #EDF3FE;
 	margin: 0;
 	padding: 10px;
 }
@@ -106,7 +107,8 @@
 #sheet .right .header h1 {
 	color: #333;
 	display: inline;
-	font-size: 15px;
+	font-family: 'Lucida Grande', arial, sans-serif;
+	font-size: 13px;
 	margin: 0;
 	padding: 0 10px 0 0;
 }
