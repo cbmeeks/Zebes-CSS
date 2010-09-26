@@ -26,7 +26,7 @@
 }
 
 #sheet div.left .header {
-	background: #DBE0D6;
+	background: #CECCE0;
 	margin: 0;
 	padding: 10px;
 }
@@ -47,6 +47,31 @@
 	margin: 0;
 	padding: 0 10px 0 0;
 }
+
+#sheet .left .header .links {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+#sheet .left .header .links ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#sheet .left .header .links li {
+	margin: 0;
+	padding: 0;
+}
+
+#sheet .left .header .links li a {
+	font-family: verdana;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
 
 #sheet .left .content {
 	margin: 0;
