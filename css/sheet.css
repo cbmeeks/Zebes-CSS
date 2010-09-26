@@ -15,7 +15,14 @@
 	margin: 0 20px 0 0;
 	padding: 0;
 	text-align: left;
-	width: 68%;
+	width: 67%;
+	
+	-moz-box-shadow: 3px 3px 4px #bbb;
+  -webkit-box-shadow: 3px 3px 4px #bbb;
+  box-shadow: 3px 3px 4px #bbb;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+
 }
 
 #sheet div.left .header {
