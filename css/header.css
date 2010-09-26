@@ -2,7 +2,7 @@
 	Main Header
 ========================================================= */
 #header {
-	background: #8C1E11;
+	background: #036;
 	margin: 0;
 	padding: 10px 10px 0 10px;
 }
@@ -62,17 +62,21 @@
 	float: right;
 }
 
-/* Left tabs */
+/* ======================================================
+	Left Tabs
+========================================================= */
 #header .tabs {
 	float: left;
 	padding: 12px 0 4px 0;
 }
 
 #header .tabs a {
-	background: #C0281A;
-	color: #FEF8FC;
+	background: #1A4F85;
+	color: #FFF;
   font-family: Lucida, sans-serif;
-	font-weight: bold;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 12px;
 	margin: 0;
 	padding: 4px 10px 4px 10px;
 	text-decoration: none;
@@ -83,15 +87,20 @@
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#e5e5e5'); /* IE */
 	background: -webkit-gradient(linear, left top, left bottom, from(#fdfdfd), to(#e5e5e5)); /* webkit */
 	background: -moz-linear-gradient(top,  #fdfdfd,  #e5e5e5); /* firefox 3.6+ */
-	color: #C0281A;
+	color: #333;
 }
 
-#header .tabs a:hover {
+#header .tabs a.active:hover {
 	background: #e5e5e5;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#e5e5e5'); /* IE */
 	background: -webkit-gradient(linear, left top, left bottom, from(#fdfdfd), to(#e5e5e5)); /* webkit */
 	background: -moz-linear-gradient(top,  #fdfdfd,  #e5e5e5); /* firefox 3.6+ */
-	color: #C0281A;
+	color: #333;
+}
+
+#header .tabs a:hover {
+	background: #1D64AD;
+	color: #FFF;
 }
 
 
