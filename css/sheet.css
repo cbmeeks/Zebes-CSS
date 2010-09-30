@@ -26,14 +26,17 @@
 }
 
 #sheet div.left .header {
-	background: #CECCE0;
-	margin: 0;
+	background: #DED7E0;
+	display: block;
+	height: 24px;
+	margin: 0 0 10px 0;
 	padding: 10px;
 }
 
 #sheet .left .header h1 {
 	color: #333;
 	display: inline;
+	float: left;
 	font-family: 'Lucida Grande', arial, sans-serif;	
 	font-size: 18px;
 	margin: 0;
@@ -43,11 +46,13 @@
 #sheet .left .header h3 {
 	color: #888;
 	display: inline;
+	float: left;
 	font-size: 12px;
 	margin: 0;
-	padding: 0 10px 0 0;
+	padding: 4px 10px 0 0;
 }
 
+/* These links are on the right side of the sheet header bar */
 #sheet .left .header .links {
 	float: right;
 	margin: 0;
@@ -61,21 +66,31 @@
 }
 
 #sheet .left .header .links li {
+	display: inline;
 	margin: 0;
-	padding: 0;
+	padding: 0 0 0 10px;
 }
 
 #sheet .left .header .links li a {
+	color: #f00;
 	font-family: verdana;
-	font-size: 12px;
+	font-size: 11px;
 	margin: 0;
 	padding: 0;
+	text-decoration: underline;
+}
+
+#sheet .left .header .links li a:hover {
+	background: #f00;
+	color: #fff;
+	text-decoration: none;
 }
 
 
+/* Sheet content */
 #sheet .left .content {
 	margin: 0;
-	padding: 10px;
+	padding: 20px;
 }
 
 /* Left Headers */
@@ -138,6 +153,17 @@
 	padding: 0 10px 0 0;
 }
 
+#sheet .right .content {
+	color: #222;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
 
+#sheet .right .content p {
+	margin: 0;
+	padding: 10px;
+}
 
-
+#sheet .right .content h1 {
+	font-size: 24px;
+}
